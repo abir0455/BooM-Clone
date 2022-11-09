@@ -409,37 +409,6 @@ class Main:
 		self.ok = []
 		self.cp = []
 		self.loop = 0
-		os.system("clear")
-		print(logo)
-		print("")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37mNote :  Approval Ka LiYa Channel Ko Subsacribe Kara")
-		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
-		
-		
-		print("")
-		print("\033[1;37m [1] First Subsacribe My Channel ")
-		print("\033[1;37m [2] Exit")
-		print("")
-		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
-		if Baloch in ["", " "]:
-			exit()
-		elif Baloch in ["2", "02"]:
-			print("    Thanks♥️")
-			exit()
-		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://www.youtube.com/channel/UCub2b8_8rJZQTdmyhWsHihw")
-			print("")
-			time.sleep(3.0)
-			print("\033[1;37m    Checking Approval ")
-			print("")
-			input("\n\033[1;37m Type The Owner Channel \033[1;37m")
-			time.sleep(3.1)
-			print("")
-			print("\033[1;32m Welcome To BooM BoY Public TOOLS")
-			print("\033[1;32m WELCOME TO BooM BoY TOOLS")
-			time.sleep(3.0)
-			os.system("clear")
 		print(logo)
 		print(" [▪]MENU METHOD")
 		print(" [+]MENU METHOD")
