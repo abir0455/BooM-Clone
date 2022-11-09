@@ -408,8 +408,8 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		print(logo)
-		print(" \033[1;32m[4] 2006 To 2012 ")
-		print(" \33[1;32m[5] 2004 To 2008 ")
+		print(" \033[1;32m[1] 2006 To 2012 ")
+		print(" \33[1;32m[2] 2004 To 2008 ")
 		print("\033[1;32m [E] Exit \n")
 		UZAIR =input(" \033[1;32mChoose : ")
 		if UZAIR in ["1", "01"]:
