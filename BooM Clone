@@ -447,7 +447,7 @@ class Main:
 			for n in range(limit):
 				_ = random.randint(x,xx)
 				__ = idx
-				BooM BoY.id.append(__+str(_))
+				Abir.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
